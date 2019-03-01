@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+#root {
+  height: 100%
+}
+
+/*Button*/
+.ant-btn{
+  font-size: 13px;
+  line-height: 13px;
+}
+
+.ant-btn:hover{
+  background: #51DBF8;
+  color: #fff;
+  border: 1px solid #51DBF8;
+}
+
+.ant-btn-primary:hover{
+  background: #9469F0;
+  color: #fff;
+  border: 1px solid #9469F0;
+}
+
+/*Expand button*/
+.ant-table-row-expand-icon {
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.ant-table-row-expand-icon:hover {
+    background: #51DBF8;
+    border: 1px solid #51DBF8;
+    color: #fff;
+}
+
+/*Table head*/
+.ant-table-thead>tr>th {
+    font-size: 14px;
+    background: #2F3057;
+    color: #fff;
+}
+
+.ant-table-thead>tr>th.ant-table-column-sort {
+    background: #404280;
+    opacity: 1;
+}
+
+.ant-table-thead>tr>th>i[class^="anticon-"]{
+  color: #fff;
+}
+
+/*Table sort icons*/
+.ant-table-column-sorter .anticon-caret-down, .ant-table-column-sorter .anticon-caret-up {
+    color: #fff;
+}
+
+.ant-table-thead>tr>th .anticon-filter {
+    color: #fff;
+}
+
+.ant-table-thead>tr>th .anticon-filter:hover {
+    color: #00C4ED;
+}
+
+.ant-table-thead>tr>th .anticon-caret-down:hover {
+    color: #00C4ED;
+}
+
+.ant-table-column-sorter-down:hover .anticon, .ant-table-column-sorter-up:hover .anticon {
+    color: #00C4ED;
+}
+
+.ant-table-thead > tr > th .ant-table-filter-selected.anticon-filter {
+    color: #00C4ED;
+}
+
+/*Modal*/
+.ant-modal-header {
+    background: #2F3057;
+    color: #fff;
+}
+
+/* Modal */
+.ant-modal-close {
+    color: #fff;
+}
+
+.ant-modal-close:focus, .ant-modal-close:hover {
+    opacity:0.8;
+    color: #fff;
+    text-decoration: none;
+}
+
+.anticon-delete:hover{
+  color:#00C4ED;
+}
+
+/* Fixed header */
+.example-table .ant-table-title {
+  padding: 0px;
+}
