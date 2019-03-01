@@ -1,13 +1,13 @@
-# rasa-nlu-trainer
-This is a tool to edit your training examples for [rasa NLU](https://github.com/RasaHQ/rasa-nlu-trainer)
+# rasa-nlu-editor
+This is a tool to edit your training examples for [rasa NLU](https://github.com/RasaHQ/rasa-nlu-editor)
 But the original project was not maintained, so I create a new repo.
 
 ## installation
 
-`$ npm i -g rasa-nlu-trainer` (you'll need [nodejs and npm](https://nodejs.org/) for this)
+`$ npm i -g rasa-nlu-editor` (you'll need [nodejs and npm](https://nodejs.org/) for this)
 
 ## launch
-`$ rasa-nlu-trainer` in your working directory
+`$ rasa-nlu-editor` in your working directory
 
 this will open the editor in your browser
 
@@ -26,11 +26,11 @@ this will open the editor in your browser
 - `$ npm run build`
 - `$ npm link`
 
-from here, the `$ rasa-nlu-trainer` command will start the development version
+from here, the `$ rasa-nlu-editor` command will start the development version
 
 run `$ npm run build` again to update the build
 
-run `$ npm unlink && npm i -g rasa-nlu-trainer` to use the npm version again
+run `$ npm unlink && npm i -g rasa-nlu-editor` to use the npm version again
 
 
 This project was bootstrapped with [Create React App](./CRA_README.md).

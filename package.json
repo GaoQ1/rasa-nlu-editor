@@ -1,5 +1,5 @@
 {
-  "name": "rasa-nlu-trainer",
+  "name": "rasa-nlu-editor",
   "version": "0.0.1",
   "devDependencies": {
     "autoprefixer": "6.5.1",
@@ -58,7 +58,7 @@
     "rasa-nlu"
   ],
   "bugs": {
-    "url": "https://github.com/GaoQ1/rasa-nlu-trainer/issues"
+    "url": "https://github.com/GaoQ1/rasa-nlu-editor/issues"
   },
   "dependencies": {
     "antd": "^2.8.0",
@@ -83,16 +83,16 @@
   "scripts": {
     "start": "node server.js -p 4321 -d true &! node scripts/start.js",
     "build-demo": "node scripts/build.js",
-    "build": "node scripts/build.js && replace '\"/rasa-nlu-trainer/' '\"/' ./build/index.html",
+    "build": "node scripts/build.js && replace '\"/rasa-nlu-editor/' '\"/' ./build/index.html",
     "test": "node scripts/test.js --env=jsdom",
     "publish-demo": "npm run build-demo && gh-pages -d build",
     "publish-npm": "npm run build && npm publish"
   },
   "preferGlobal": true,
   "bin": {
-    "rasa-nlu-trainer": "./server.js"
+    "rasa-nlu-editor": "./server.js"
   },
-  "homepage": "https://GaoQ1.github.io/rasa-nlu-trainer/",
+  "homepage": "https://GaoQ1.github.io/rasa-nlu-editor/",
   "license": "MIT",
   "jest": {
     "collectCoverageFrom": [
