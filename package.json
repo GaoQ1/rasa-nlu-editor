@@ -86,7 +86,8 @@
     "build": "node scripts/build.js && replace '\"/rasa-nlu-editor/' '\"/' ./build/index.html",
     "test": "node scripts/test.js --env=jsdom",
     "publish-demo": "npm run build-demo && gh-pages -d build",
-    "publish-npm": "npm run build && npm publish"
+    "publish-npm": "npm run build && npm publish",
+    "deploy": "npm run build&&gh-pages -d build"
   },
   "preferGlobal": true,
   "bin": {
