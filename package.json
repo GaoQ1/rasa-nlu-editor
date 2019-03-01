@@ -93,7 +93,7 @@
   "bin": {
     "rasa-nlu-editor": "./server.js"
   },
-  "homepage": "https://GaoQ1.github.io/rasa-nlu-editor/",
+  "homepage": "https://gaoq1.github.io/rasa-nlu-editor/",
   "license": "MIT",
   "jest": {
     "collectCoverageFrom": [
