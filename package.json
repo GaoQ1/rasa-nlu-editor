@@ -1,6 +1,6 @@
 {
   "name": "rasa-nlu-editor",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "devDependencies": {
     "autoprefixer": "6.5.1",
     "babel-core": "6.17.0",

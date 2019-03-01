@@ -6,6 +6,17 @@ import { connect } from 'react-redux'
 import * as actions from '../state/actions'
 import immutable from 'object-path-immutable'
 
+const styles = {
+  button: {
+    border: '1px solid #51DBF8',
+    backgroundColor: '#51DBF8',
+    borderRadius: '10px',
+    color: 'white',
+    cursor: 'pointer',
+    width: '50%',
+  }
+}
+
 const mapState = (state, props) => {
   const { example } = props
   const selection = state.selection && state.selection.idExample === example.id
@@ -36,8 +47,8 @@ class EntityTable extends Component {
 
     return selectionText
       ? (
-        <Button
-          type='primary'
+        <div
+          style={{ ...styles.button }}
           onClick={() => {
             edit(
               example.id,
@@ -50,7 +61,7 @@ class EntityTable extends Component {
           }}
         >
           {`add an entity for "${selectionText}"`}
-        </Button>
+        </div>
       )
       : (
         <Button disabled={true}>
